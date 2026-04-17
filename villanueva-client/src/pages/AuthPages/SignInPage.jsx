@@ -70,7 +70,11 @@ const SignInPage = () => {
 
       <div className="mt-8 border-t border-amber-200 pt-6 text-sm text-amber-600">
         No account yet?{' '}
-        <Link to="/auth/signup" className="font-semibold text-amber-900 transition hover:text-amber-600">
+        <Link
+          to="/auth/signup"
+          className="font-semibold text-amber-900 transition hover:text-amber-600"
+          aria-label="Navigate to sign up page"
+        >
           Sign Up
         </Link>
       </div>

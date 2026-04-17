@@ -1,16 +1,17 @@
 import { Outlet } from 'react-router-dom';
+import banner from '../assets/img/nu_bulldogex_banner.jpg';
 
 const AuthLayout = () => {
   return (
     <section className="min-h-screen bg-amber-100 text-amber-900">
+      
       <div className="grid min-h-screen w-full lg:grid-cols-[1fr_0.95fr]">
-        <div className="flex items-center justify-center border-b-2 border-amber-300 bg-amber-200 p-8 sm:p-10 lg:border-b-0 lg:border-r-2 lg:border-amber-300 lg:p-16">
-          <div className="flex w-full max-w-md items-center justify-center rounded-4xl border-2 border-dashed border-amber-300 bg-amber-100/60 p-8 sm:p-10">
-            <div className="relative aspect-square w-full max-w-[18rem] border-10 border-amber-50/90">
-              <span className="absolute left-1/2 top-0 h-full w-2 -translate-x-1/2 rotate-45 bg-amber-50/90" />
-              <span className="absolute left-1/2 top-0 h-full w-2 -translate-x-1/2 -rotate-45 bg-amber-50/90" />
-            </div>
-          </div>
+        <div className="hidden lg:flex items-center justify-center border-r-2 border-amber-300 ">
+          <img
+            src={banner}
+            alt="BulldogEx Shop Banner"
+            className="h-full w-full object-cover"
+          />
         </div>
 
         <main className="flex items-center bg-amber-50 px-6 py-10 sm:px-10 lg:px-16">

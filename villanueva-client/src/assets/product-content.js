@@ -9,8 +9,8 @@ import examImg from './img/nuexam.jpg';
 
 const products = [
   {
-    name: 'campus-tote-bag',
-    title: 'Campus Tote Bag',
+    name: 'campus-sling-bag',
+    title: 'Campus Sling Bag',
     thumbnail: totImg,
     category: 'Bags',
     price: 'PHP 499',
@@ -22,8 +22,8 @@ const products = [
     ],
   },
   {
-    name: 'daily-notes-pack',
-    title: 'Daily Notes Pack',
+    name: 'notepads-pack',
+    title: 'Notepads Pack',
     thumbnail: notesImg,
     category: 'Stationery',
     price: 'PHP 249',
@@ -35,8 +35,8 @@ const products = [
     ],
   },
   {
-    name: 'stainless-tumbler',
-    title: 'Stainless Tumbler',
+    name: 'nu-Mug',
+    title: 'NU Mug',
     thumbnail: tumblerImg,
     category: 'Drinkware',
     price: 'PHP 599',
@@ -48,8 +48,8 @@ const products = [
     ],
   },
   {
-    name: 'wireless-study-lamp',
-    title: 'Wireless Study Lamp',
+    name: 'nu-mini-fan',
+    title: 'NU Mini Fan',
     thumbnail: lampImg,
     category: 'Tech',
     price: 'PHP 899',
@@ -61,8 +61,8 @@ const products = [
     ],
   },
   {
-    name: 'hoodie-jacket',
-    title: 'Hoodie Jacket',
+    name: 'nu-sweatshirt',
+    title: 'NU Sweatshirt',
     thumbnail: hoodieImg,
     category: 'Apparel',
     price: 'PHP 1,199',
@@ -74,8 +74,8 @@ const products = [
     ],
   },
   {
-    name: 'desk-organizer-kit',
-    title: 'Desk Organizer Kit',
+    name: 'nu-pen-holder',
+    title: 'NU Pen Holder',
     thumbnail: deskImg,
     category: 'Workspace',
     price: 'PHP 349',
@@ -87,8 +87,8 @@ const products = [
     ],
   },
   {
-    name: 'id-lanyard-set',
-    title: 'ID Lanyard Set',
+    name: 'nu-wristband',
+    title: 'NU Wristband',
     thumbnail: idImg,
     category: 'Accessories',
     price: 'PHP 179',
@@ -100,8 +100,8 @@ const products = [
     ],
   },
   {
-    name: 'exam-week-care-pack',
-    title: 'Exam Week Care Pack',
+    name: 'nu-summer-bundle',
+    title: 'Summer Bundle',
     thumbnail: examImg,
     category: 'Bundles',
     price: 'PHP 399',

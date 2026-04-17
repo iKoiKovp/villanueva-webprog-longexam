@@ -43,9 +43,7 @@ function ProductPage() {
       <section className="border-y-2 border-amber-900 bg-amber-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <div className="mb-8 flex aspect-4/3 items-center justify-center rounded-[1.25rem] border-2 border-amber-900 bg-amber-200">
-            <div className="flex h-24 w-24 items-center justify-center border-2 border-amber-300 bg-amber-100 text-[11px] font-semibold uppercase tracking-[0.24em] text-amber-500">
-              Item
-            </div>
+            <img src={product.thumbnail} alt={product.title} className='h-full w-full object-cover rounded-[1.25rem]'/>
           </div>
 
           <div className="prose prose-sm max-w-none space-y-4 text-amber-700">

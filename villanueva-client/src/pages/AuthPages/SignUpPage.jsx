@@ -87,7 +87,11 @@ const SignUpPage = () => {
 
       <div className="mt-8 border-t border-amber-200 pt-6 text-sm text-amber-600">
         Already have an account?{' '}
-        <Link to="/auth/signin" className="font-semibold text-amber-900 transition hover:text-amber-600">
+        <Link
+          to="/auth/signin"
+          className="font-semibold text-amber-900 transition hover:text-amber-600"
+          aria-label="Navigate to sign in page"
+        >
           Log In
         </Link>
       </div>

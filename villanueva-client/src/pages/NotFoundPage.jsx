@@ -1,9 +1,16 @@
 import Button from '../components/Button';
+import logo from '../assets/img/nubdexchange_logo.png';
 
 const NotFoundPage = () => {
   return (
     <div className="flex w-full flex-col gap-6">
       <section className="border-y-2 border-amber-900 bg-amber-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+        <div className="flex items-center gap-3 mb-4">
+            <img src={logo} alt="BulldogEx Logo" className="h-10 w-10" />
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-amber-500">
+              BulldogEx Shop
+            </p>
+          </div>
         <div className="max-w-3xl">
           <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-amber-500">
             Error

@@ -1,5 +1,8 @@
 import Button from '../../components/Button';
 import banner from '../../assets/img/nu_bulldogex_banner.jpg';
+import nutote from '../../assets/img/nutote.jpeg';
+import desk from '../../assets/img/desk.jpg'; 
+import hoodie from '../../assets/img/nuhoodie.jpeg';
 
 const HomePage = () => {
     return (
@@ -10,7 +13,7 @@ const HomePage = () => {
                     alt=""
                     className="absolute inset-0 h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-amber-900/45" />
+                <div className="absolute inset-0 bg-zinc-900/45" />
 
                 <div className="relative z-10 flex min-h-[22rem] items-start justify-end text-right sm:min-h-[24rem]">
                     <div className="max-w-xl">
@@ -83,7 +86,7 @@ const HomePage = () => {
                 <div className="grid gap-4 md:grid-cols-3">
                     <article className="rounded-3xl border-2 border-amber-900 bg-amber-100 p-4">
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-amber-200">
-                            <div className="h-12 w-12 border-2 border-amber-300 bg-amber-100" />
+                            <img src={nutote} alt='Nutote' className='h-full w-full object-cover'/>
                         </div>
                         <h3 className="mt-4 text-lg font-semibold text-amber-900">Daily Essentials</h3>
                         <p className="mt-3 text-sm leading-6 text-amber-600">
@@ -94,7 +97,7 @@ const HomePage = () => {
 
                     <article className="rounded-3xl border-2 border-amber-900 bg-amber-100 p-4">
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-amber-200">
-                            <div className="h-12 w-12 border-2 border-amber-300 bg-amber-100" />
+                            <img src={desk} alt='Desk' className='h-full w-full object-cover'/>
                         </div>
                         <h3 className="mt-4 text-lg font-semibold text-amber-900">Study Supplies</h3>
                         <p className="mt-3 text-sm leading-6 text-amber-600">
@@ -105,7 +108,7 @@ const HomePage = () => {
 
                     <article className="rounded-3xl border-2 border-amber-900 bg-amber-100 p-4">
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-amber-200">
-                            <div className="h-12 w-12 border-2 border-amber-300 bg-amber-100" />
+                            <img src={hoodie} alt='Hoodie' className='h-full w-full object-cover'/>
                         </div>
                         <h3 className="mt-4 text-lg font-semibold text-amber-900">Campus Apparel</h3>
                         <p className="mt-3 text-sm leading-6 text-amber-600">

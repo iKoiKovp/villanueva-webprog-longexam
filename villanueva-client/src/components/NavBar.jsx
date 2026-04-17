@@ -7,6 +7,11 @@ const links = [
   { label: 'Products', to: '/products' },
 ];
 
+const authLinks = [
+  { label: 'Sign In', to: '/auth/signin' },
+  { label: 'Sign Up', to: '/auth/signup' },
+];
+
 const navLinkClassName = ({ isActive }) =>
   [
     'rounded-full border-2 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] transition',
@@ -26,9 +31,19 @@ const NavBar = () => {
           </div>
         </NavLink>
 
-        <nav className="hidden items-center gap-2 md:flex">
+        <nav aria-label="Primary navigation" className="hidden items-center gap-2 md:flex">
           {links.map((link) => (
             <NavLink key={link.to} to={link.to} end={link.to === '/'} className={navLinkClassName}>
+              {link.label}
+            </NavLink>
+          ))}
+          {authLinks.map((link) => (
+            <NavLink
+              key={link.to}
+              to={link.to}
+              className={navLinkClassName}
+              aria-label={`Navigate to ${link.label}`}
+            >
               {link.label}
             </NavLink>
           ))}
