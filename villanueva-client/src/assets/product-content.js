@@ -1,7 +1,17 @@
+import totImg from './img/nutote.jpeg';
+import notesImg from './img/notes.webp';
+import tumblerImg from './img/nutumbler.jpeg';
+import lampImg from './img/nulamp.webp';
+import hoodieImg from './img/nuhoodie.jpeg';
+import deskImg from './img/desk.jpg';
+import idImg from './img/nuid.jpg';
+import examImg from './img/nuexam.jpg';
+
 const products = [
   {
     name: 'campus-tote-bag',
     title: 'Campus Tote Bag',
+    thumbnail: totImg,
     category: 'Bags',
     price: 'PHP 499',
     stock: 'In stock',
@@ -14,6 +24,7 @@ const products = [
   {
     name: 'daily-notes-pack',
     title: 'Daily Notes Pack',
+    thumbnail: notesImg,
     category: 'Stationery',
     price: 'PHP 249',
     stock: 'In stock',
@@ -26,6 +37,7 @@ const products = [
   {
     name: 'stainless-tumbler',
     title: 'Stainless Tumbler',
+    thumbnail: tumblerImg,
     category: 'Drinkware',
     price: 'PHP 599',
     stock: 'Low stock',
@@ -38,6 +50,7 @@ const products = [
   {
     name: 'wireless-study-lamp',
     title: 'Wireless Study Lamp',
+    thumbnail: lampImg,
     category: 'Tech',
     price: 'PHP 899',
     stock: 'In stock',
@@ -50,6 +63,7 @@ const products = [
   {
     name: 'hoodie-jacket',
     title: 'Hoodie Jacket',
+    thumbnail: hoodieImg,
     category: 'Apparel',
     price: 'PHP 1,199',
     stock: 'Preorder',
@@ -62,6 +76,7 @@ const products = [
   {
     name: 'desk-organizer-kit',
     title: 'Desk Organizer Kit',
+    thumbnail: deskImg,
     category: 'Workspace',
     price: 'PHP 349',
     stock: 'In stock',
@@ -74,6 +89,7 @@ const products = [
   {
     name: 'id-lanyard-set',
     title: 'ID Lanyard Set',
+    thumbnail: idImg,
     category: 'Accessories',
     price: 'PHP 179',
     stock: 'In stock',
@@ -86,6 +102,7 @@ const products = [
   {
     name: 'exam-week-care-pack',
     title: 'Exam Week Care Pack',
+    thumbnail: examImg,
     category: 'Bundles',
     price: 'PHP 399',
     stock: 'In stock',
