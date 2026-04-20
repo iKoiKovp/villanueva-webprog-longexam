@@ -1,24 +1,24 @@
-import totImg from './img/nutote.jpeg';
-import notesImg from './img/notes.webp';
-import tumblerImg from './img/nutumbler.jpeg';
-import lampImg from './img/nulamp.webp';
-import hoodieImg from './img/nuhoodie.jpeg';
-import deskImg from './img/desk.jpg';
-import idImg from './img/nuid.jpg';
-import examImg from './img/nuexam.jpg';
+import slingImg from './img/nuslingbag.png';
+import notesImg from './img/nunotepad.png';
+import mugImg from './img/numug.png';
+import fanImg from './img/nufan.png';
+import sweaterImg from './img/nusweat.png';
+import penImg from './img/nupen.png';
+import wristImg from './img/nuwrist.png';
+import summerImg from './img/nusummer.png';
 
 const products = [
   {
     name: 'campus-sling-bag',
     title: 'Campus Sling Bag',
-    thumbnail: totImg,
+    thumbnail: slingImg,
     category: 'Bags',
     price: 'PHP 499',
     stock: 'In stock',
     content: [
-      'A roomy everyday tote for books, gym clothes, chargers, and quick campus errands.',
-      'Made with thick canvas, reinforced handles, and a clean monochrome print.',
-      'Best for students who want one simple carry-all bag for class and after-class plans.',
+      'This practical navy blue sling bag, crafted from durable canvas, is perfect for carrying your daily essentials across campus.',
+      'It features a bold, embroidered patch of the NU Bulldog mascot on the front pocket and a subtle "NU" script logo at the top.',
+      'The adjustable single strap allows for comfortable, hands-free carrying, keeping your gear secure and accessible.',
     ],
   },
   {
@@ -29,87 +29,87 @@ const products = [
     price: 'PHP 249',
     stock: 'In stock',
     content: [
-      'A practical bundle of notebooks, sticky notes, and quick-label tabs for daily class work.',
-      'The set is light, compact, and easy to keep inside a backpack or locker.',
-      'Useful for lectures, reminders, project lists, and exam review schedules.',
+      'Jot down notes and ideas in these professional-looking notepads, featuring navy blue covers.',
+      'The covers are adorned with a small, gold-foil stamped version of the NU Bulldog logo',
+      'The top pad is slightly open, revealing clean white pages with a subtle, stylized bulldog watermark, ready for your thoughts.',
     ],
   },
   {
     name: 'nu-Mug',
     title: 'NU Mug',
-    thumbnail: tumblerImg,
+    thumbnail: mugImg,
     category: 'Drinkware',
     price: 'PHP 599',
     stock: 'Low stock',
     content: [
-      'A double-wall tumbler built for water, coffee, or tea during long school days.',
-      'The matte finish keeps the look simple while the lid helps reduce spills in your bag.',
-      'Fits most side pockets and keeps drinks ready between classes.',
+      'Start your day with a sip of school spirit from this sturdy, deep navy blue ceramic mug.',
+      'A vibrant, snarling NU Bulldog logo is proudly displayed on the side, complete with a spiked collar and sharp teeth.',
+      'The mug’s glossy finish and classic C-handle make it a comfortable and stylish way to enjoy your coffee or tea.',
     ],
   },
   {
     name: 'nu-mini-fan',
     title: 'NU Mini Fan',
-    thumbnail: lampImg,
+    thumbnail: fanImg,
     category: 'Tech',
     price: 'PHP 899',
     stock: 'In stock',
     content: [
-      'A compact rechargeable lamp for dorm desks, night study sessions, and small workspaces.',
-      'It has three brightness levels and a foldable body that stores neatly after use.',
-      'Good for reading, writing, and focused desk work without taking too much space.',
+      'Keep cool on the go with this compact, rechargeable mini fan, perfect for those humid Philippine days',
+      'It features the fierce NU Bulldogs logo on the central hub and subtle "NU TECH" branding on the handle.',
+      'Its portable design makes it an essential tech accessory for students moving between classes.',
     ],
   },
   {
     name: 'nu-sweatshirt',
     title: 'NU Sweatshirt',
-    thumbnail: hoodieImg,
+    thumbnail: sweaterImg,
     category: 'Apparel',
     price: 'PHP 1,199',
     stock: 'Preorder',
     content: [
-      'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
-      'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
-      'Available through preorder so sizes can be reserved before release.',
+      'Show your school pride in comfort with this classic heather grey sweatshirt.',
+      'A large, stylized illustration of the NU Bulldog is screen-printed across the chest, featuring its characteristic yellow body and blue spiked collar.',
+      'Below the mascot, "NU BULLDOGS" is prominently displayed, followed by the university\'s establishment year, "EST. 1900."',
     ],
   },
   {
     name: 'nu-pen-holder',
     title: 'NU Pen Holder',
-    thumbnail: deskImg,
+    thumbnail: penImg,
     category: 'Workspace',
     price: 'PHP 349',
     stock: 'In stock',
     content: [
-      'A small organizer set for pens, clips, cables, cards, and other desk essentials.',
-      'The modular pieces can be arranged based on your study area or dorm table.',
-      'Keeps daily tools visible without adding clutter.',
+      'Organize your desk with a touch of collegiate elegance using this refined pen holder.',
+      'The holder is sculpted into a small, gold-finished architectural plinth and features an engraved and color-filled NU Bulldog logo on its front face.',
+      'It’s an ideal way to display your favorite writing tools while celebrating your university connection.',
     ],
   },
   {
     name: 'nu-wristband',
     title: 'NU Wristband',
-    thumbnail: idImg,
+    thumbnail: wristImg,
     category: 'Accessories',
     price: 'PHP 179',
     stock: 'In stock',
     content: [
-      'A durable lanyard and card holder set for IDs, access cards, and small passes.',
-      'The clip is easy to detach when scanning or presenting credentials.',
-      'Simple enough for daily use and sturdy enough for a full semester.',
+      'Rep your team in casual style with this set of elastic athletic wristbands.',
+      'The set includes two bands, one in navy blue and one in gold, each featuring a miniature version of the aggressive NU Bulldog logo.',
+      'They are soft, comfortable, and perfect for showing your support at games or during your own workouts.',
     ],
   },
   {
     name: 'nu-summer-bundle',
     title: 'Summer Bundle',
-    thumbnail: examImg,
+    thumbnail: summerImg,
     category: 'Bundles',
     price: 'PHP 399',
     stock: 'In stock',
     content: [
-      'A compact bundle with snacks, tabs, pens, and quick notes for busy review weeks.',
-      'Packed for convenience so students can grab one kit and focus on studying.',
-      'Ideal as a personal prep item or a small gift for classmates.',
+      'Prepare for sunshine and sudden showers with this practical NU Summer Bundle.',
+      'The compact navy blue umbrella features a repeating pattern of the NU Bulldog and a large "NU" logo, ensuring you stay dry and stylish.',
+      'Paired with it is a beautiful, collapsible hand fan, decorated with smaller bulldog motifs, perfect for keeping cool and showcasing your school spirit.',
     ],
   },
 ];
